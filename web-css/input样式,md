@@ -1,0 +1,47 @@
+# input样式
+
+
+```
+input{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 10px;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0px;
+  border: 1px solid #a5a5a5;
+  text-shadow: none;
+  -webkit-appearance: none;
+  -webkit-user-select: text;
+}
+
+//placeholder样式设置
+
+input::-webkit-input-placeholder {
+  	color: #aab2bd;
+  	font-size:20px;
+ }
+ input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ 	color: #aab2bd;
+    font-size:20px
+ }
+ input::-moz-placeholder { /* Mozilla Firefox 19+ */
+ 	color: #aab2bd;
+  	font-size:20px
+ }
+ input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ 	color: #aab2bd;
+  	font-size:20px
+ }
+
+//聚焦的时候样式设置
+
+input:focus{
+  border: 1px solid #a5a5a5;
+  mso-border-shadow: no;
+
+}
+
+```
+
